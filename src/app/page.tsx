@@ -67,7 +67,7 @@ export default function Home() {
   const parseDiscounts = (discountText: string) => {
     const lines = discountText.split("\n").filter(line => line.trim());
     const discounts = [];
-    for (let line of lines) {
+    for (const line of lines) {
       if (line.includes("→") && line.includes("% OFF")) {
         const [original, discounted] = line.split("→").map(s => s.trim());
         const [service] = original.split("-").map(s => s.trim());
