@@ -127,7 +127,7 @@ export default function Home() {
               style={{ backgroundImage: "url(/images/taxservices.webp)" }}
             />
             <div className="absolute top-2 right-2 bg-white bg-opacity-90 rounded-full p-2 shadow-md">
-              <span className="text-sm font-medium text-purple-700">How It Works?</span>
+              {/* <span className="text-sm font-medium text-purple-700">How It Works?</span> */}
             </div>
           </div>
           <h2 className="text-xl font-semibold mt-4 text-gray-800">Tax Services Offers</h2>
